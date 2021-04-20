@@ -1,0 +1,256 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroller {
+
+    scrollbar-width: 5px;
+}
+
+
+/** {*/
+/*    user-select: none;*/
+/*    -khtml-user-select: none;*/
+/*    -o-user-select: none;*/
+/*    -moz-user-select: -moz-none;*/
+/*    -webkit-user-select: none;*/
+/*}*/
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+body {
+    font-family: Raleway, 'Open Sans', 'Droid Sans', Roboto, arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*font-family: "Roboto",sans-serif;*/
+    /*position: fixed;*/
+    background-image: url("../img/bg/bgk1.jpg");
+
+
+    font-size: 18px;
+    line-height: 28px;
+    vertical-align: baseline;
+    font-stretch: 100%;
+    /*-webkit-touch-callout: none;*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+}
+
+
+body::after {
+    content: "";
+    background: white;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#header {
+    height: 50px;
+    background: teal;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ai-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-h {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.parent-center-h {
+    display: flex;
+    align-self: center;
+/ / vertical center
+}
+
+
+.page {
+    display: flex;
+    margin: 23px;
+}
+
+.page .image-th {
+    margin: 23px;
+}
+
+.js_link {
+    cursor: pointer;
+}
+
+.js_link img {
+    width: 100%;
+}
+
+
+/*th width*/
+.th-120 {
+    width: 120px;
+}
+
+
+/*modal*/
+.imager .image-box {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    background: #000000de;
+
+}
+
+.imager .image-wrapper {
+    height: 100%;
+    /*background: yellow;*/
+}
+
+.imager .image-travel {
+    height: 100%;
+    /*background: teal;*/
+    display: block;
+    position: relative;
+    flex-direction: column;
+}
+
+.imager .image-header {
+
+
+    height: 50px;
+    display: flex;
+    justify-items: legacy;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    /* background: teal; */
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    position: fixed;
+    transition: all .7s;
+
+
+    height: 50px;
+    /*background: #00000099;*/
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.imager .image-header:hover {
+
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px #00000029;
+    background-image: linear-gradient(180deg, #0000008f, transparent);
+}
+
+
+.image-title {
+    /*display: none;*/
+}
+
+.image-control {
+    /*display: none;*/
+}
+
+.image-close {
+    /*display: none;*/
+    padding-right: 12px;
+    font-size: 27px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.imager .imager-content {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    /*padding-top: 50px;*/
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+.imager .mfooter {
+    background: #0000003d;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.imager-contnet {
+
+}
+
+.player {
+    display: flex;
+    align-self: center;
+}
+
+
+.player img {
+    /*height: 2000px;*/
+    position: absolute;
+    /*width: 700px;*/
+    height: auto;
+
+}
+
+/*.display-none{*/
+/*    display: none;*/
+/*}*/
+/*.display-block{*/
+/*    display: block !important;*/
+/*}*/
